@@ -14,7 +14,7 @@ function useReveal(ref) {
 
 /* ─────────────────────────────────────────────────────────────
    ✏️ EDIT — your resume details.
-   Put your PDF resume in /public/resume.pdf for the download button.
+   Put your PDF resume in /public/resume.pdf for the View Resume button.
    ───────────────────────────────────────────────────────────── */
 const PERSONAL = [
   { label: 'Full Name',   value: 'Vincent Kobe Casantusan' },
@@ -86,8 +86,8 @@ export default function Resume() {
               Education, skills, achievements &amp; certifications at a glance.
             </p>
           </div>
-          <a href="/resume.pdf" download className="btn btn-primary reveal" style={{ transitionDelay: '0.15s', textDecoration: 'none' }}>
-            Download CV (PDF) ↓
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-primary reveal" style={{ transitionDelay: '0.15s', textDecoration: 'none' }}>
+            View Resume ↗
           </a>
         </div>
 
