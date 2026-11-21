@@ -248,7 +248,7 @@ export default function About() {
             </div>
           </div>
 
-          {/* ── RIGHT: Content ── */}
+          {/* ── RIGHT: Content ──  */}
           <div>
             <h2 className="reveal-right" style={{
               fontFamily: 'Syne, sans-serif', fontWeight: 800,
